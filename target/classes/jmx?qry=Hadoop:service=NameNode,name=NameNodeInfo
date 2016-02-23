@@ -1,0 +1,43 @@
+{
+  "beans" : [ {
+    "name" : "Hadoop:service=NameNode,name=NameNodeInfo",
+    "modelerType" : "org.apache.hadoop.hdfs.server.namenode.FSNamesystem",
+    "Threads" : 137,
+    "Total" : 3041420427264,
+    "ClusterId" : "cluster12",
+    "UpgradeFinalized" : true,
+    "Version" : "2.6.0-cdh5.4.5, rab14c89fe25e9fb3f9de4fb852c21365b7c5608b ",
+    "Used" : 28999487421,
+    "Free" : 2810786021376,
+    "Safemode" : "",
+    "NonDfsUsedSpace" : 201634918467,
+    "PercentUsed" : 0.9534851,
+    "BlockPoolUsedSpace" : 28999487421,
+    "PercentBlockPoolUsed" : 0.9534851,
+    "PercentRemaining" : 92.41689,
+    "CacheCapacity" : 18996002816,
+    "CacheUsed" : 0,
+    "TotalBlocks" : 15031,
+    "TotalFiles" : 32671,
+    "NumberOfMissingBlocks" : 0,
+    "NumberOfMissingBlocksWithReplicationFactorOne" : 0,
+    "LiveNodes" : "{\"dice.cdh5.w12.internal\":{\"infoAddr\":\"109.231.122.240:50075\",\"infoSecureAddr\":\"109.231.122.240:0\",\"xferaddr\":\"109.231.122.240:50010\",\"lastContact\":0,\"usedSpace\":3617329152,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":14628069376,\"capacity\":253451702272,\"numBlocks\":6381,\"version\":\"2.6.0-cdh5.4.5\",\"used\":3617329152,\"remaining\":235206303744,\"blockScheduled\":0,\"blockPoolUsed\":3617329152,\"blockPoolUsedPercent\":1.4272262,\"volfails\":0},\"dice.cdh5.w2.internal\":{\"infoAddr\":\"109.231.122.173:50075\",\"infoSecureAddr\":\"109.231.122.173:0\",\"xferaddr\":\"109.231.122.173:50010\",\"lastContact\":0,\"usedSpace\":1692426240,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":18724823040,\"capacity\":253451702272,\"numBlocks\":1540,\"version\":\"2.6.0-cdh5.4.5\",\"used\":1692426240,\"remaining\":233034452992,\"blockScheduled\":0,\"blockPoolUsed\":1692426240,\"blockPoolUsedPercent\":0.667751,\"volfails\":0},\"dice.cdh5.w5.internal\":{\"infoAddr\":\"109.231.122.201:50075\",\"infoSecureAddr\":\"109.231.122.201:0\",\"xferaddr\":\"109.231.122.201:50010\",\"lastContact\":1,\"usedSpace\":2331742208,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":14111244288,\"capacity\":253451702272,\"numBlocks\":3478,\"version\":\"2.6.0-cdh5.4.5\",\"used\":2331742208,\"remaining\":237008715776,\"blockScheduled\":0,\"blockPoolUsed\":2331742208,\"blockPoolUsedPercent\":0.9199947,\"volfails\":0},\"dice.cdh5.w7.internal\":{\"infoAddr\":\"109.231.122.231:50075\",\"infoSecureAddr\":\"109.231.122.231:0\",\"xferaddr\":\"109.231.122.231:50010\",\"lastContact\":0,\"usedSpace\":560103357,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":24189554755,\"capacity\":253451702272,\"numBlocks\":633,\"version\":\"2.6.0-cdh5.4.5\",\"used\":560103357,\"remaining\":228702044160,\"blockScheduled\":1,\"blockPoolUsed\":560103357,\"blockPoolUsedPercent\":0.22099017,\"volfails\":0},\"dice.cdh5.w13.internal\":{\"infoAddr\":\"109.231.122.127:50075\",\"infoSecureAddr\":\"109.231.122.127:0\",\"xferaddr\":\"109.231.122.127:50010\",\"lastContact\":1,\"usedSpace\":3066290176,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":14243426304,\"capacity\":253451702272,\"numBlocks\":7601,\"version\":\"2.6.0-cdh5.4.5\",\"used\":3066290176,\"remaining\":236141985792,\"blockScheduled\":0,\"blockPoolUsed\":3066290176,\"blockPoolUsedPercent\":1.2098124,\"volfails\":0},\"dice.cdh5.w3.internal\":{\"infoAddr\":\"109.231.122.164:50075\",\"infoSecureAddr\":\"109.231.122.164:0\",\"xferaddr\":\"109.231.122.164:50010\",\"lastContact\":2,\"usedSpace\":2538897408,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":13108019200,\"capacity\":253451702272,\"numBlocks\":5564,\"version\":\"2.6.0-cdh5.4.5\",\"used\":2538897408,\"remaining\":237804785664,\"blockScheduled\":0,\"blockPoolUsed\":2538897408,\"blockPoolUsedPercent\":1.0017283,\"volfails\":0},\"dice.cdh5.w10.internal\":{\"infoAddr\":\"109.231.122.207:50075\",\"infoSecureAddr\":\"109.231.122.207:0\",\"xferaddr\":\"109.231.122.207:50010\",\"lastContact\":1,\"usedSpace\":3725815808,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":22412660736,\"capacity\":253451702272,\"numBlocks\":3658,\"version\":\"2.6.0-cdh5.4.5\",\"used\":3725815808,\"remaining\":227313225728,\"blockScheduled\":0,\"blockPoolUsed\":3725815808,\"blockPoolUsedPercent\":1.47003,\"volfails\":0},\"dice.cdh5.w1.internal\":{\"infoAddr\":\"109.231.122.187:50075\",\"infoSecureAddr\":\"109.231.122.187:0\",\"xferaddr\":\"109.231.122.187:50010\",\"lastContact\":0,\"usedSpace\":2086858752,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":16584851456,\"capacity\":253451702272,\"numBlocks\":2850,\"version\":\"2.6.0-cdh5.4.5\",\"used\":2086858752,\"remaining\":234779992064,\"blockScheduled\":0,\"blockPoolUsed\":2086858752,\"blockPoolUsedPercent\":0.82337534,\"volfails\":0},\"dice.cdh5.w9.internal\":{\"infoAddr\":\"109.231.122.182:50075\",\"infoSecureAddr\":\"109.231.122.182:0\",\"xferaddr\":\"109.231.122.182:50010\",\"lastContact\":0,\"usedSpace\":3317108736,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":16462155776,\"capacity\":253451702272,\"numBlocks\":4212,\"version\":\"2.6.0-cdh5.4.5\",\"used\":3317108736,\"remaining\":233672437760,\"blockScheduled\":0,\"blockPoolUsed\":3317108736,\"blockPoolUsedPercent\":1.3087735,\"volfails\":0},\"dice.cdh5.w8.internal\":{\"infoAddr\":\"109.231.122.194:50075\",\"infoSecureAddr\":\"109.231.122.194:0\",\"xferaddr\":\"109.231.122.194:50010\",\"lastContact\":1,\"usedSpace\":3440951296,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":13587148800,\"capacity\":253451702272,\"numBlocks\":4624,\"version\":\"2.6.0-cdh5.4.5\",\"used\":3440951296,\"remaining\":236423602176,\"blockScheduled\":0,\"blockPoolUsed\":3440951296,\"blockPoolUsedPercent\":1.357636,\"volfails\":0},\"dice.cdh5.w4.internal\":{\"infoAddr\":\"109.231.122.233:50075\",\"infoSecureAddr\":\"109.231.122.233:0\",\"xferaddr\":\"109.231.122.233:50010\",\"lastContact\":1,\"usedSpace\":1411190784,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":13717798912,\"capacity\":253451702272,\"numBlocks\":3430,\"version\":\"2.6.0-cdh5.4.5\",\"used\":1411190784,\"remaining\":238322712576,\"blockScheduled\":0,\"blockPoolUsed\":1411190784,\"blockPoolUsedPercent\":0.55678886,\"volfails\":0},\"dice.cdh5.w6.internal\":{\"infoAddr\":\"109.231.122.130:50075\",\"infoSecureAddr\":\"109.231.122.130:0\",\"xferaddr\":\"109.231.122.130:50010\",\"lastContact\":2,\"usedSpace\":1210773504,\"adminState\":\"In Service\",\"nonDfsUsedSpace\":19865165824,\"capacity\":253451702272,\"numBlocks\":1122,\"version\":\"2.6.0-cdh5.4.5\",\"used\":1210773504,\"remaining\":232375762944,\"blockScheduled\":0,\"blockPoolUsed\":1210773504,\"blockPoolUsedPercent\":0.4777137,\"volfails\":0}}",
+    "DeadNodes" : "{\"dice.cdh5.w11.internal\":{\"lastContact\":1231191,\"decommissioned\":false,\"xferaddr\":\"109.231.122.156:50010\"}}",
+    "DecomNodes" : "{}",
+    "BlockPoolId" : "BP-1436051383-109.231.122.228-1441915598128",
+    "NameDirStatuses" : "{\"failed\":{},\"active\":{\"/dfs/nn\":\"IMAGE_AND_EDITS\"}}",
+    "NodeUsage" : "{\"nodeUsage\":{\"min\":\"0.22%\",\"median\":\"1.00%\",\"max\":\"1.47%\",\"stdDev\":\"0.39%\"}}",
+    "NameJournalStatus" : "[{\"stream\":\"EditLogFileOutputStream(/dfs/nn/current/edits_inprogress_0000000000001999465)\",\"manager\":\"FileJournalManager(root=/dfs/nn)\",\"required\":\"false\",\"disabled\":\"false\"}]",
+    "JournalTransactionInfo" : "{\"LastAppliedOrWrittenTxId\":\"1999832\",\"MostRecentCheckpointTxId\":\"1999464\"}",
+    "NNStarted" : "Tue Nov 24 00:38:29 UTC 2015",
+    "CompileInfo" : "2015-08-12T21:11Z by jenkins from Unknown",
+    "CorruptFiles" : "[]",
+    "DistinctVersionCount" : 1,
+    "DistinctVersions" : [ {
+      "key" : "2.6.0-cdh5.4.5",
+      "value" : 12
+    } ],
+    "SoftwareVersion" : "2.6.0-cdh5.4.5",
+    "RollingUpgradeStatus" : null
+  } ]
+}
